@@ -1,6 +1,5 @@
-clean:
-	rm *.dylib
+all:
+	make -C hello all
 
-hello:
-	cobc HELLO.cbl
-	cobcrun HELLO
+clean:
+	make -C hello clean
